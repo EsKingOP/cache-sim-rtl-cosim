@@ -1,0 +1,15 @@
+# Failing regression trace: Write buffer synchronization mismatch
+# Rapid write-then-read to same cache line index before write buffer commit
+W 0x00000040 0x11111111
+R 0x00000044
+W 0x00001040 0x22222222
+W 0x00002040 0x33333333
+W 0x00003040 0x44444444
+W 0x00004040 0x55555555
+R 0x00000040
+W 0x00005040 0x66666666
+R 0x00001040
+R 0x00002040
+R 0x00003040
+R 0x00004040
+R 0x00005040

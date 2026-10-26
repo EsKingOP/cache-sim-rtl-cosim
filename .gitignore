@@ -1,0 +1,102 @@
+# C++ build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+*.cbp
+*.user
+*.sdf
+compile_commands.json
+
+# Verilog / HDL simulation outputs
+*.vcd
+*.fst
+*.vvp
+*.lxt
+*.lxt2
+*.vzt
+*.ghw
+*.out
+sim_build/
+dump.vcd
+
+# Icarus Verilog
+a.out
+
+# Vivado junk
+*.jou
+*.log
+*.pb
+*.str
+vivado_pid*.str
+vivado.jou
+vivado.log
+.Xil/
+xsim.dir/
+xvlog.log
+xvhdl.log
+xelab.log
+xsim.log
+webtalk*.xml
+webtalk*.jou
+*.wdb
+*.xpr.bak
+*.bit
+*.bin
+*.ltx
+*.runs/
+*.sim/
+*.ip_user_files/
+*.cache/
+*.hw/
+*.sw/
+*.gen/
+NA/
+
+# ModelSim / Questa
+work/
+transcript
+vsim.wlf
+modelsim.ini
+*.cr.mti
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+*.egg-info/
+dist/
+.eggs/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Co-sim outputs
+rtl_output.log
+cosim_report.txt
+mismatch_*.txt
